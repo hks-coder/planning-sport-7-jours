@@ -3,75 +3,300 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Programme de sport sur 7 jours pour organiser ses séances facilement." />
+  <meta name="description" content="Programme complet de sport sur 7 jours avec exercices détaillés, temps de pause, conseils nutritionnels et repas quotidiens." />
   <title>Planning Sport 7 Jours</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <header>
+  <header class="hero">
     <div class="container">
+      <p class="eyebrow">Programme sportif & nutrition</p>
       <h1>Planning Sport 7 Jours</h1>
-      <p>Un programme simple pour rester actif toute la semaine</p>
+      <p class="subtitle">Un programme complet pour bouger chaque jour, mieux récupérer et manger plus équilibré.</p>
+      <div class="hero-badges">
+        <span>7 jours</span>
+        <span>Exercices détaillés</span>
+        <span>Temps de pause</span>
+        <span>Repas quotidiens</span>
+      </div>
     </div>
   </header>
 
   <main class="container">
-    <section>
-      <h2>Objectif du programme</h2>
-      <p>
-        Ce planning sportif sur 7 jours est conçu pour aider à garder une routine équilibrée,
-        améliorer la condition physique et alterner efficacement effort, récupération et mobilité.
-      </p>
+    <section class="intro-grid">
+      <article class="card">
+        <h2>Objectif du programme</h2>
+        <p>
+          Ce planning sur 7 jours aide à construire une routine régulière avec du cardio, du renforcement musculaire,
+          du gainage, de la mobilité et de la récupération active. Le but est de progresser sans brûler les étapes.
+        </p>
+      </article>
+      <article class="card">
+        <h2>Conseils généraux</h2>
+        <ul class="check-list">
+          <li>Faire 5 à 10 minutes d’échauffement avant chaque séance.</li>
+          <li>Boire de l’eau avant, pendant et après l’effort.</li>
+          <li>Respecter les temps de pause indiqués.</li>
+          <li>Adapter les répétitions selon son niveau.</li>
+          <li>Terminer par 5 minutes d’étirements légers.</li>
+        </ul>
+      </article>
     </section>
 
     <section>
-      <h2>Programme de la semaine</h2>
-      <ul>
-        <li>
-          <h3>Lundi — Cardio</h3>
-          <p>30 à 45 minutes de course, vélo ou corde à sauter pour démarrer la semaine avec énergie.</p>
-        </li>
-        <li>
+      <div class="section-heading">
+        <p class="section-kicker">Semaine sportive</p>
+        <h2>Programme détaillé jour par jour</h2>
+      </div>
+
+      <div class="day-grid">
+        <article class="day-card">
+          <h3>Lundi — Cardio & remise en route</h3>
+          <p class="day-meta">Durée : 35 à 45 min</p>
+          <h4>Échauffement</h4>
+          <ul>
+            <li>5 min de marche rapide</li>
+            <li>2 min de rotation des bras et des hanches</li>
+          </ul>
+          <h4>Exercices</h4>
+          <ul>
+            <li>20 min de jogging léger ou vélo</li>
+            <li>3 × 30 sec de jumping jacks</li>
+            <li>3 × 20 sec de montées de genoux</li>
+          </ul>
+          <h4>Temps de pause</h4>
+          <ul>
+            <li>30 à 45 sec entre les séries</li>
+            <li>1 min avant le retour au calme</li>
+          </ul>
+          <h4>Retour au calme</h4>
+          <ul>
+            <li>5 min de marche lente</li>
+            <li>Étirements des mollets et quadriceps</li>
+          </ul>
+        </article>
+
+        <article class="day-card">
           <h3>Mardi — Bas du corps</h3>
-          <p>Squats, fentes, ponts fessiers et mollets pour renforcer les jambes et améliorer la stabilité.</p>
-        </li>
-        <li>
+          <p class="day-meta">Durée : 40 min</p>
+          <h4>Échauffement</h4>
+          <ul>
+            <li>5 min de mobilité des hanches, genoux et chevilles</li>
+          </ul>
+          <h4>Exercices</h4>
+          <ul>
+            <li>3 × 15 squats</li>
+            <li>3 × 12 fentes par jambe</li>
+            <li>3 × 20 ponts fessiers</li>
+            <li>3 × 20 extensions mollets debout</li>
+          </ul>
+          <h4>Temps de pause</h4>
+          <ul>
+            <li>45 sec entre les séries</li>
+            <li>1 min entre chaque exercice</li>
+          </ul>
+          <h4>Retour au calme</h4>
+          <ul>
+            <li>Étirements cuisses, fessiers et mollets</li>
+          </ul>
+        </article>
+
+        <article class="day-card">
           <h3>Mercredi — Repos actif</h3>
-          <p>Marche, mobilité ou étirements légers pour favoriser la récupération sans rester inactif.</p>
-        </li>
-        <li>
+          <p class="day-meta">Durée : 20 à 30 min</p>
+          <h4>Activité</h4>
+          <ul>
+            <li>30 min de marche</li>
+            <li>10 min d’étirements et mobilité</li>
+            <li>Respiration profonde pendant 5 min</li>
+          </ul>
+          <h4>Objectif</h4>
+          <ul>
+            <li>Favoriser la récupération</li>
+            <li>Réduire les tensions musculaires</li>
+          </ul>
+        </article>
+
+        <article class="day-card">
           <h3>Jeudi — Haut du corps</h3>
-          <p>Pompes, dips, gainage et exercices pour les bras, épaules et dos.</p>
-        </li>
-        <li>
-          <h3>Vendredi — Abdos et gainage</h3>
-          <p>Planche, crunchs, mountain climbers et relevés de jambes pour renforcer le centre du corps.</p>
-        </li>
-        <li>
-          <h3>Samedi — Séance complète</h3>
-          <p>Enchaînement full body avec exercices de force et cardio pour une séance plus intense.</p>
-        </li>
-        <li>
-          <h3>Dimanche — Récupération</h3>
-          <p>Étirements, respiration et relaxation pour terminer la semaine et préparer la suivante.</p>
-        </li>
-      </ul>
+          <p class="day-meta">Durée : 35 à 45 min</p>
+          <h4>Échauffement</h4>
+          <ul>
+            <li>5 min d’échauffement épaules, poignets et coudes</li>
+          </ul>
+          <h4>Exercices</h4>
+          <ul>
+            <li>3 × 10 pompes</li>
+            <li>3 × 12 dips sur chaise</li>
+            <li>3 × 30 sec de gainage</li>
+            <li>3 × 15 mouvements contrôlés pour les épaules</li>
+          </ul>
+          <h4>Temps de pause</h4>
+          <ul>
+            <li>45 sec entre les séries</li>
+          </ul>
+          <h4>Retour au calme</h4>
+          <ul>
+            <li>Étirements des bras, épaules et dos</li>
+          </ul>
+        </article>
+
+        <article class="day-card">
+          <h3>Vendredi — Abdos & gainage</h3>
+          <p class="day-meta">Durée : 30 à 40 min</p>
+          <h4>Échauffement</h4>
+          <ul>
+            <li>3 min de corde imaginaire ou marche sur place</li>
+          </ul>
+          <h4>Exercices</h4>
+          <ul>
+            <li>3 × 20 crunchs</li>
+            <li>3 × 30 sec planche</li>
+            <li>3 × 20 mountain climbers</li>
+            <li>3 × 12 relevés de jambes</li>
+          </ul>
+          <h4>Temps de pause</h4>
+          <ul>
+            <li>30 à 40 sec entre les séries</li>
+          </ul>
+          <h4>Retour au calme</h4>
+          <ul>
+            <li>Étirements du bas du dos et des abdominaux</li>
+          </ul>
+        </article>
+
+        <article class="day-card">
+          <h3>Samedi — Full body</h3>
+          <p class="day-meta">Durée : 40 à 50 min</p>
+          <h4>Circuit à faire 4 fois</h4>
+          <ul>
+            <li>15 squats</li>
+            <li>10 pompes</li>
+            <li>20 jumping jacks</li>
+            <li>20 mountain climbers</li>
+            <li>30 sec de planche</li>
+          </ul>
+          <h4>Temps de pause</h4>
+          <ul>
+            <li>1 min entre les tours</li>
+            <li>30 sec entre les exercices si nécessaire</li>
+          </ul>
+          <h4>Objectif</h4>
+          <ul>
+            <li>Travailler l’ensemble du corps</li>
+            <li>Améliorer endurance et coordination</li>
+          </ul>
+        </article>
+
+        <article class="day-card">
+          <h3>Dimanche — Récupération & mobilité</h3>
+          <p class="day-meta">Durée : 20 à 30 min</p>
+          <h4>Programme</h4>
+          <ul>
+            <li>10 min d’étirements complets</li>
+            <li>10 min de respiration et relaxation</li>
+            <li>20 min de marche douce si possible</li>
+          </ul>
+          <h4>Objectif</h4>
+          <ul>
+            <li>Laisser le corps récupérer</li>
+            <li>Préparer la semaine suivante</li>
+          </ul>
+        </article>
+      </div>
     </section>
 
     <section>
-      <h2>Conseils</h2>
-      <ul>
-        <li>Boire suffisamment d’eau avant, pendant et après l’effort.</li>
-        <li>Adapter l’intensité selon son niveau.</li>
-        <li>Respecter les temps de repos.</li>
-        <li>Privilégier la régularité plutôt que l’excès.</li>
-      </ul>
+      <div class="section-heading">
+        <p class="section-kicker">Nutrition</p>
+        <h2>Repas conseillés pour chaque jour</h2>
+      </div>
+
+      <div class="meal-grid">
+        <article class="meal-card">
+          <h3>Lundi</h3>
+          <p><strong>Petit-déjeuner :</strong> flocons d’avoine, banane, yaourt nature</p>
+          <p><strong>Déjeuner :</strong> blanc de poulet, riz complet, haricots verts</p>
+          <p><strong>Collation :</strong> pomme et amandes</p>
+          <p><strong>Dîner :</strong> omelette aux légumes, pain complet, salade verte</p>
+        </article>
+
+        <article class="meal-card">
+          <h3>Mardi</h3>
+          <p><strong>Petit-déjeuner :</strong> pain complet, beurre de cacahuète, orange</p>
+          <p><strong>Déjeuner :</strong> steak haché maigre, patate douce, brocolis</p>
+          <p><strong>Collation :</strong> fromage blanc et noix</p>
+          <p><strong>Dîner :</strong> filet de poisson, quinoa, courgettes</p>
+        </article>
+
+        <article class="meal-card">
+          <h3>Mercredi</h3>
+          <p><strong>Petit-déjeuner :</strong> yaourt grec, muesli, fruits rouges</p>
+          <p><strong>Déjeuner :</strong> escalope de dinde, pâtes complètes, ratatouille</p>
+          <p><strong>Collation :</strong> banane et amandes</p>
+          <p><strong>Dîner :</strong> soupe de légumes, œufs durs, tartine complète</p>
+        </article>
+
+        <article class="meal-card">
+          <h3>Jeudi</h3>
+          <p><strong>Petit-déjeuner :</strong> smoothie banane, lait, flocons d’avoine et kiwi</p>
+          <p><strong>Déjeuner :</strong> poulet grillé, semoule, carottes et concombre</p>
+          <p><strong>Collation :</strong> compote sans sucre ajouté et noisettes</p>
+          <p><strong>Dîner :</strong> saumon, riz, épinards</p>
+        </article>
+
+        <article class="meal-card">
+          <h3>Vendredi</h3>
+          <p><strong>Petit-déjeuner :</strong> pain complet, fromage frais, pomme</p>
+          <p><strong>Déjeuner :</strong> thon, pommes de terre vapeur, salade mixte</p>
+          <p><strong>Collation :</strong> yaourt nature et fruit</p>
+          <p><strong>Dîner :</strong> blanc de poulet, légumes grillés, quinoa</p>
+        </article>
+
+        <article class="meal-card">
+          <h3>Samedi</h3>
+          <p><strong>Petit-déjeuner :</strong> pancakes maison à l’avoine, banane, yaourt</p>
+          <p><strong>Déjeuner :</strong> bœuf maigre, riz basmati, poivrons</p>
+          <p><strong>Collation :</strong> fruits secs et poire</p>
+          <p><strong>Dîner :</strong> omelette, salade composée, pain complet</p>
+        </article>
+
+        <article class="meal-card">
+          <h3>Dimanche</h3>
+          <p><strong>Petit-déjeuner :</strong> tartines complètes, œufs brouillés, jus d’orange</p>
+          <p><strong>Déjeuner :</strong> poulet rôti, pommes de terre, légumes verts</p>
+          <p><strong>Collation :</strong> fromage blanc et fruits rouges</p>
+          <p><strong>Dîner :</strong> soupe légère, poisson blanc, légumes vapeur</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="tips-section">
+      <div class="section-heading">
+        <p class="section-kicker">Bien-être</p>
+        <h2>Conseils pour progresser</h2>
+      </div>
+      <div class="tips-grid">
+        <article class="tip-card">
+          <h3>Hydratation</h3>
+          <p>Boire entre 1,5 L et 2 L d’eau par jour, davantage en cas d’effort intense ou de chaleur.</p>
+        </article>
+        <article class="tip-card">
+          <h3>Récupération</h3>
+          <p>Dormir suffisamment, marcher les jours de repos et éviter les entraînements trop intenses sans récupération.</p>
+        </article>
+        <article class="tip-card">
+          <h3>Nutrition</h3>
+          <p>Privilégier les protéines, les légumes, les féculents complets et limiter les produits ultra-transformés.</p>
+        </article>
+      </div>
     </section>
   </main>
 
   <footer>
-    <div class="container">
-      <p>© 2026 Planning Sport 7 Jours — Tous droits réservés</p>
+    <div class="container footer-content">
+      <p>© 2026 Planning Sport 7 Jours</p>
+      <p>Programme d’entraînement et repas équilibrés pour une routine simple et motivante.</p>
     </div>
   </footer>
 </body>
