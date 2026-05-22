@@ -4,17 +4,21 @@ body {
     padding: 0;
     line-height: 1.6;
     color: #333;
-    background-color: #f4f4f4;
+    background: linear-gradient(180deg, #f3f9f4 0%, #eef2ff 100%);
 }
 
 header {
-    background: #28a745;
+    background: linear-gradient(120deg, #1f9d55 0%, #2f80ed 100%);
     color: #fff;
-    padding: 28px 16px;
+    padding: 36px 16px;
     text-align: center;
 }
 
-h1, h2 {
+h1 {
+    margin-bottom: 6px;
+}
+
+h2 {
     color: #222;
 }
 
@@ -22,18 +26,45 @@ h3 {
     color: #555;
 }
 
+.subtitle {
+    margin-top: 0;
+    margin-bottom: 14px;
+    opacity: 0.95;
+}
+
+.cta-link {
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid rgba(255, 255, 255, 0.7);
+    border-radius: 999px;
+    padding: 8px 16px;
+    font-weight: bold;
+    transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+.cta-link:hover {
+    background-color: rgba(255, 255, 255, 0.18);
+    transform: translateY(-1px);
+}
+
 .container {
     max-width: 960px;
-    margin: 24px auto;
+    margin: 28px auto;
     padding: 0 16px 24px;
 }
 
 .card {
     background: #fff;
-    border-radius: 10px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    border-radius: 12px;
+    box-shadow: 0 10px 24px rgba(15, 23, 42, 0.08);
     padding: 18px;
     margin-bottom: 18px;
+    animation: fade-up 0.45s ease both;
+}
+
+.intro-card p {
+    margin: 0;
 }
 
 ul {
@@ -44,11 +75,18 @@ ul {
 
 .planning-list li,
 .tips-list li {
-    background: #fff;
+    background: #f9fafb;
     margin: 10px 0;
     padding: 15px;
     border-radius: 8px;
     border: 1px solid #e5e7eb;
+    transition: transform 0.2s ease, border-color 0.2s ease;
+}
+
+.planning-list li:hover,
+.tips-list li:hover {
+    transform: translateY(-2px);
+    border-color: #c7d2fe;
 }
 
 footer {
@@ -70,5 +108,42 @@ footer {
 
     .card {
         padding: 14px;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+        color: #e5e7eb;
+        background: linear-gradient(180deg, #0f172a 0%, #111827 100%);
+    }
+
+    h2, h3 {
+        color: #f8fafc;
+    }
+
+    .card {
+        background: #1f2937;
+        box-shadow: 0 10px 24px rgba(2, 6, 23, 0.55);
+    }
+
+    .planning-list li,
+    .tips-list li {
+        background: #111827;
+        border-color: #374151;
+    }
+
+    footer {
+        background: #111827;
+    }
+}
+
+@keyframes fade-up {
+    from {
+        opacity: 0;
+        transform: translateY(8px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
     }
 }
