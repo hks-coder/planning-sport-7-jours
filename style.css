@@ -153,6 +153,28 @@ li {
     border-left: 4px solid #28a745;
 }
 
+.workout-label {
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: #1f7a34;
+    margin: 8px 0 2px;
+}
+
+.exos {
+    margin: 2px 0 6px;
+}
+
+.exos li {
+    background: #e8f5ec;
+    border-left: 3px solid #2c8f47;
+    padding: 5px 10px;
+    margin: 3px 0;
+    font-size: 0.88rem;
+    border-radius: 6px;
+}
+
 footer {
     text-align: center;
     padding: 18px 0;
